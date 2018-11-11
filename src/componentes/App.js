@@ -78,7 +78,7 @@ class App extends React.Component {
             body: data
         };
         //indicamos la url a donde enviaremos y recibiremos la data
-        fetch('http://159.89.147.241:5000/upload', sentData)
+        fetch('http://192.241.156.50:5000/upload', sentData)
             .then(response => {
                 //capturamos la respuesta para zip
                 if (this.state.value === "zip") {
